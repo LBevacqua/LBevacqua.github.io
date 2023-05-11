@@ -1,0 +1,201 @@
+body {
+	background-color: #fdf8f5; 
+	background-size: contain;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #ff8643
+	}
+
+a {
+	text-decoration: none;
+	color: #ff8643
+}
+
+.allcontent {
+	position: absolute;
+	top:200px;
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 25px;
+}
+
+#container {
+	background-color: #fdf8f5;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Logo {
+	height: 200px;
+	width: auto;
+}
+
+.header {
+	Float: right;
+	font-size: 24px;
+	color: #ff8643;
+	padding-top: 25px;
+	padding-right: 25px;
+}
+
+.vertical-line {
+	display: inline-block;
+	border-left: 3px solid #ff8643;
+	margin: -10px 10px;
+	padding-top: 25px;
+	height: 10px;
+    }
+
+.topnav {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	flex-flow: row;
+	background-color: #fdf8f5;
+}
+
+.topnav a:hover {
+	background-color: #ff8643;
+	color: #fdf8f5;
+}
+
+.topnav li {
+	list-style: none;
+	position: relative;
+}
+
+.topnav a {
+	margin-right: 50px;
+	margin-left: 50px;
+    border-color: #ff8643;
+    border-style: solid;
+	display: block;
+	font-family: Arial;
+	color: #ff8643;
+	font-size: 24px;
+	text-align: center;
+	padding: 10px 32px;
+	text-decoration: none;
+}
+
+
+.dropbtn {
+  background-color: #fdf8f5;
+  color: #ff8643;
+  padding: 10px 32px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover {
+	background-color: #ff8643;
+	color: #fdf8f5;
+}
+.dropdown {
+  margin-right: 50px;
+  margin-left: 50px;
+  border-color: #ff8643;
+  border-style: solid;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  color: #ff8643; 
+  position: absolute;
+  background-color:  #fdf8f5;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  border-style: none;
+  color: #ff8643;
+  font-size: 16px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ff8643;
+	color: #fdf8f5;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+.address [
+	padding-left: 500px;
+	justify-content: center;
+]
+
+
+.form p {
+	text-align: left;
+	padding-left: 100px;
+}
+
+.address {
+	float: left;
+	width: 60%;
+	padding-left: 200px;
+}
+
+.form {
+	margin-left: 200px;
+}
+
+
+#contact {
+	width: 1000px;
+}
+
+
+.contact {
+  display: flex;
+  flex: grid;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+#contact {
+	padding-right: 20px;
+	height: 700px;
+	width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
